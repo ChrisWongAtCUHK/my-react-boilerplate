@@ -1,0 +1,31 @@
+{
+  "name": "my-react-boilerplate",
+  "version": "1.0.0",
+  "description": "This thing is the bomb dot com",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "author": "Chris Wong <wc38.wong@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.1.0",
+    "react-test-renderer": "^16.13.1"
+  },
+  "jest": {
+	"setupTestFrameworkScriptFile": "./test/enzyme.setup.js"
+  }
+}

@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "lint": "./node_modules/.bin/eslint ./src/*.js ./src/**/*.js",
-    "lint:fix": "./node_modules/.bin/eslint ./src/*.js ./src/**/*.js --fix",
+    "lint": "./node_modules/.bin/eslint ./*.js ./src/*.js ./src/**/*.js",
+    "lint:fix": "./node_modules/.bin/eslint ./*.js ./src/*.js ./src/**/*.js --fix",
     "start": "webpack-dev-server --config webpack.dev.js",
     "test": "jest ./test"
   },

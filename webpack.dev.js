@@ -8,7 +8,9 @@ module.exports = merge(common, {
     port: 3000,
     open: true,
     headers: {
+      'X-Content-Type-Options': 'nosniff',
       'X-Frame-Options': 'sameorigin',
+      'X-XSS-Protection': '1; mode=block',
     },
   },
 });

@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+	"build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
     "test": "jest ./test"
   },
   "author": "Chris Wong <wc38.wong@gmail.com>",
@@ -34,7 +35,8 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "./test/enzyme.setup.js"

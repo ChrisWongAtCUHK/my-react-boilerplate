@@ -22,6 +22,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "babel-eslint": "^10.1.0",
@@ -56,13 +57,11 @@
     "setupTestFrameworkScriptFile": "./test/enzyme.setup.js"
   },
   "lint-staged": {
-    "src/*.{js}, src/**/*.{js,jsx}": [
-      "eslint . --fix", "git add"
-    ]
+    "*.+(js|jsx)": ["eslint --fix", "git add"]
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
-	}
+    }
   }
 }

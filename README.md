@@ -9,4 +9,4 @@ This thing is the bomb dot com
 - [How to build your own React boilerplate with webpack 4 & Babel 7](https://medium.com/@sethalexander/how-to-build-your-own-react-boilerplate-1a97d09337fd)
 - [TypeError: CleanwebpackPlugin is not a constructor](https://stackoverflow.com/questions/56567930/typeerror-cleanwebpackplugin-is-not-a-constructor)
 - [Webpack not excluding node_modules](https://stackoverflow.com/questions/33001237/webpack-not-excluding-node-modules)
-
+- [How React Context can come to the rescue if you don’t know Redux](https://medium.com/free-code-camp/how-react-context-can-come-to-the-rescue-if-you-dont-know-redux-5452464642ee)

@@ -37,7 +37,7 @@ class GlobalState extends Component {
 
   removeProductFromCart = (productId) => {
     const { cart } = this.state;
-    const updatedCart = [cart];
+    const updatedCart = [...cart];
     const updatedItemIndex = updatedCart.findIndex(
       (item) => item.id === productId
     );
